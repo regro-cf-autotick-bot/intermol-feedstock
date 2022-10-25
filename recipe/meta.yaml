@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/shirtsgroup/InterMol/archive/v{{ version }}.tar.gz
-  sha256: b2c9fe92f525c64e3e9edffd0b2429dfef5dde7fb7a0bb14a7f9a8db748abd5c
+  sha256: e59163d47426f0b7cd5e6e5c11ad833ed8d99050e4dc2312d03bbb567b0f437b
 
 build:
   noarch: python
