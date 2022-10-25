@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -38,8 +38,8 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.md
-  summary: 'Conversion tool for molecular simulations'
-  description: 'Conversion tool for molecular simulations'
+  summary: Conversion tool for molecular simulations
+  description: Conversion tool for molecular simulations
   dev_url: https://github.com/shirtsgroup/InterMol
 
 extra:
